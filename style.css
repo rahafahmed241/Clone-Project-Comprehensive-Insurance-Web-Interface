@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.herosec{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.links{
+    position: absolute;
+    right: 110px;
+    top: 24px;
+}
+
+a{
+    color: darkgreen;
+    text-decoration: none ;
+    font-size:20px ;
+    font-weight: bold;
+    margin-left: 28px;
+}
+
+a:hover{
+    color: rgb(106, 164, 18);
+}
+
+img[src="./resources/logo2.png"]{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+
+
+.img1{
+    width: 100%;
+    height: 530px;
+    background-image: url(./resources/i02.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 148, 2, 0.405)
+}
+.textimg1{
+    position: absolute;
+    top:25% ;
+    left: 180px;
+
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color:rgb(142, 200, 28);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 15px 24px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: rgb(142, 200, 28);
+    border-color: rgb(142, 200, 28);
+    cursor: pointer;
+}
+
+.arrow{
+    position: absolute;
+    top: 227px;
+    color: white;
+    background-color: rgb(142, 200, 28);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.left-arrow{
+    left: 20px;
+}
+
+.right-arrow{
+    right: 20px;
+}
+
+
+
+.part2{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    overflow: hidden;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 24px;
+    color: rgb(243, 133, 23);
+}
+.icon img{
+    width: 24px;
+    margin-right: 18px;
+
+}
+li{
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+}
+.par2{
+    color: black;
+    font-size: 18px;
+}
+.part2text{
+    float: left;
+    width: 40%;
+}
+.part2img{
+    float: right;
+    width: 55%;
+    margin-top: 0;
+}
+.part2img img{
+    width: 100%;
+    height: 350px;
+}
+
+.part3{
+    
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(99, 124, 56);
+}
+.card{
+    float: left;
+    width: 33.333%;
+    height: 400px;
+    padding: 110px 30px;
+    box-sizing: border-box;
+
+}
+.icon2 img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    filter: brightness(0) invert(1);
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+.card p{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.first-part3:hover{
+    background-image:linear-gradient(rgba(99,124,56,0.8) , rgba(99,124,56,0.8)), url(./resources/i06.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-part3:hover{
+    background-image:linear-gradient(rgba(99,124,56,0.8) , rgba(99,124,56,0.8)), url(./resources/i07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-part3:hover{
+    background-image:linear-gradient(rgba(99,124,56,0.8) , rgba(99,124,56,0.8)), url(./resources/i05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.AboutUs{
+    margin-top: 85px;
+    margin-right: 85px;
+    margin-left: 85px;
+    margin-bottom: 85px;
+    overflow: hidden;
+}
+.Content-AboutUs h2{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+/* .list-aboutus{
+    list-style-type: square;
+    color: rgb(99, 124, 56);
+} */
+.list-aboutus li{
+    color: black;
+    margin-bottom: 18px;
+}
+.square{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border: 3px solid rgb(142, 200, 28);
+    margin-right: 10px;
+}
+.Content-AboutUs p{
+    color: black;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.Content-AboutUs{
+    width: 35%;
+    float: left;
+}
+.about-img{
+    width: 55%;
+    float: right;
+}
+.num{
+    color: rgb(233, 143, 53);
+    font-size: 50px;
+}
+.num-card p{
+    color: rgb(79, 107, 23);
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+/* .nums-container{
+    margin-top: 10px;
+} */
+.num-card{
+    display: inline-block;
+    width: 45%;
+    /* vertical-align: top; */
+}
+.with-border{
+    border-left: 1px solid rgba(43, 41, 41, 0.51);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+#AboutUs-Section{
+    scroll-margin-top: 70px;
+}
+
